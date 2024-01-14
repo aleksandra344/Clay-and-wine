@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Clay and wine</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="description" content="Clay workshop with a touch of wine ">
+		<meta name="keywords" content="clay, wine, workshop">
+		<meta name="author" content="Aleksandra Blažeković">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale:1.0">
+		<link rel="icon" type="image/x-icon" href="/prepisujem/favicon.png">
+		<link rel="stylesheet" href="style2.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+	</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="photos/cawlogo2.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="about.html">ABOUT US</a></li>
+						<li><a href="course.html">COURSES</a></li>
+						<li><a href="blog.html">PRODUCTS</a></li>
+						<li><a href="contact.html">CONTACT US</a></li>
+					</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>Pottery wheel experience</h1>
+	</section>
+	
+	<section class="about-us">
+		<div class="row">
+			<div class="about-colour">
+				<p>Our wheel throwing explorer workshop is created for you and it lasts one hour. Potters wheel, all tools, clay, glazes two firings in the kiln, necessary guidance and tuition are provided.
+				   <br>
+				   <br>
+				    Our further processing (turning, trimming, drying, firing and glazing) of one chosen piece is also included in the price. Should you like to experience all segments of the pottery making, you are welcome to book one or two individual workshop to trim, decorate and maybe even glaze all your pieces.
+				   <br>
+				   <br>
+				   After the experience workshop on potters wheel most students like to have a go at handbuilding too, please note, prior booking is necessary!
+				   <br>
+				   <br>
+				   Use of clay and potters wheel included in the price. Adults who are only escorting children and do not participate in the workshop are not charged.
+				   <br>
+				   <br>
+				   <b>Price of the course is 45.00€.</b>
+				   </p>
+				<button type="submit" class="hero-btn red-btn">Buy now</button>
+			</div>
+			<div class="about-colour">
+				<img src="photos/course3.png" alt="Course3">
+			</div>
+		</div>
+		
+	</section>
+	
+<!--Footer-->
+<footer class="footer">
+		<p>Copyright &copy;2024 <a href="https://github.com/aleksandra344">Aleksandra Blažeković       <img src="photos/github2.jpg" title="Github"></a></p>
+	</footer>
+	
+<!-- JS za toggle meni-->
+
+	<script>
+		var navLinks = document.getElementById("navLinks");
+		
+		function showMenu(){
+			navLinks.style.right = "0";   
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+	</script>
